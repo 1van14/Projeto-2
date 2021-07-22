@@ -38,8 +38,8 @@ class CalculaDistancia:
         
     def define_perfil(self, indice):
         '''
-        Método que recebe um índice para a lista de cps não classificados e faz o cálculo da distância Euclidiana em relação
-        a todos os cpfs já classificados: define_perfil(indice)
+        Método que recebe um índice da lista de cpfs não classificados, faz o cálculo da distância Euclidiana em relação
+        a todos os cpfs já classificados e a classificação do cpf correspondente ao índice em questão, quanto a: Conservador, Moderado ou agressivo. 
         '''
         lista_distancia = [] 
         for y in range(len(self.lista_definida)): # percorre a lista já definida
