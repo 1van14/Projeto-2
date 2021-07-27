@@ -15,6 +15,10 @@ class CalculaDistancia:
         self.lista_definida = lista_definida
         self.K = K
         
+    def fun_principal(self):
+        for i in range(len(self.lista_indefinida)):
+            self.define_perfil(i)
+        
     def ordena_lista(self, lista):
         '''
         Método que recebe uma lista de listas de dois elementos, e a ordena pelo segundo elemento.
